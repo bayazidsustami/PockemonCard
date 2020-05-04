@@ -1,6 +1,5 @@
 package com.example.pockemoncard.data.repository.sets
 
-import android.util.Log
 import com.example.pockemoncard.data.PokemonSet
 import com.example.pockemoncard.data.repository.BaseRepository
 

@@ -3,7 +3,6 @@ package com.example.pockemoncard.ui.main
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.pockemoncard.data.repository.sets.PokemonSetRepository
-import java.lang.IllegalArgumentException
 
 class SetListFactory(private val setRepository: PokemonSetRepository)
     : ViewModelProvider.Factory {

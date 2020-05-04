@@ -40,7 +40,7 @@ class SetListAdapter: RecyclerView.Adapter<SetListAdapter.ViewHolder>() {
             Glide.with(containerView).load(item.logo).into(ivSetLogo)
             tvSetName.text = item.name
 
-            containerView?.setOnClickListener { view ->
+            containerView.setOnClickListener { view ->
                 val action =
                     SetListFragmentDirections.actionSetListFragmentToPokemonListFragment(item.name)
                 view.findNavController().navigate(action)

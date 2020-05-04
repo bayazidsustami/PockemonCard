@@ -1,7 +1,6 @@
 package com.example.pockemoncard.data.repository.card
 
 import kotlinx.coroutines.runBlocking
-import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
 import org.mockito.ArgumentMatchers
